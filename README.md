@@ -1,16 +1,76 @@
-# soilplus
+# SoilPlus 🌱  
+**Smart offline irrigation assistant for farmers**
 
-A new Flutter project.
+---
 
-## Getting Started
+## 🇷🇺 О проекте
 
-This project is a starting point for a Flutter application.
+**SoilPlus** — это мобильное приложение для расчёта и планирования полива,  
+работающее **полностью оффлайн** и поддерживающее подключение  
+к BLE-датчикам влажности почвы.
 
-A few resources to get you started if this is your first Flutter project:
+Проект создан как **MVP агротех-решения** для:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- фермеров без стабильного интернета  
+- теплиц и небольших хозяйств  
+- учебных и исследовательских задач  
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Возможности
+
+- 📊 Расчёт нормы полива по формуле **ET₀ × Kc**
+- 🌾 Выбор культуры и стадии роста
+- 💧 Учёт осадков и эффективности системы
+- 🗓 Недельный план полива
+- 🧠 Профили участков с сохранением параметров
+- 📡 Подготовка к работе с **BLE-датчиками влажности**
+- 🔌 Полностью **оффлайн-режим**
+
+---
+
+## 🇬🇧 About the project
+
+**SoilPlus** is a mobile irrigation planning app designed to work  
+**fully offline** and integrate with **BLE soil moisture sensors**.
+
+It is built as an **AgriTech MVP** for:
+
+- farmers with limited internet access  
+- greenhouses and small farms  
+- educational and research use  
+
+### Features
+
+- 📊 Irrigation calculation using **ET₀ × Kc**
+- 🌾 Crop and growth stage selection
+- 💧 Rainfall and system efficiency adjustment
+- 🗓 Weekly irrigation planning
+- 🧠 Plot profiles with saved parameters
+- 📡 Ready for **BLE soil sensor integration**
+- 🔌 Works completely **offline**
+
+---
+
+## 🛠 Tech stack
+
+- **Flutter (Dart)**
+- Local offline storage
+- BLE integration (in progress)
+- Android first
+
+---
+
+## 🚀 Roadmap
+
+- [x] Offline irrigation calculator  
+- [x] Plot profiles  
+- [x] Weekly irrigation plan  
+- [ ] BLE soil moisture auto-sync  
+- [ ] Irrigation recommendations from real sensor data  
+- [ ] Cloud sync & farmer accounts  
+
+---
+
+## 📦 Build
+
+```bash
+flutter build apk --release
